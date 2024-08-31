@@ -1,5 +1,6 @@
 # Paint-Liter
-Calculator how many liters of paint is needed, 1 is written in python and javascript
+Calculator how many liters of paint is needed, 1 is written in python and the other in 
+javascript
 
 How the Script Works:
 Adding Walls: Users can add up to 4 walls by specifying the width and height.

@@ -1,0 +1,149 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for the Form */
+.container {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 500px;
+    width: 100%;
+}
+
+/* Heading Style */
+h1 {
+    font-size: 2rem;
+    color: #333;
+    margin: 0;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #007bff;
+}
+
+/* Form Elements */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.wall-input {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.wall-input label {
+    flex: 1;
+    font-size: 1.1rem;
+    color: #555;
+    margin-top: 30px;
+}
+
+.wall-input input {
+    width: 100px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 35px;
+}
+
+/* Button Styles */
+button {
+    padding: 12px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    outline: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+/* Add Wall Button */
+button#addWallButton {
+    background: linear-gradient(135deg, #ffc107, #ff9800);
+    color: #fff;
+}
+
+button#addWallButton:hover {
+    background: linear-gradient(135deg, #ff9800, #ffc107);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+}
+
+/* Reset Button */
+button#resetButton {
+    background: linear-gradient(135deg, #6c757d, #5a6268);
+    color: #fff;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    margin-left: 35%;
+}
+
+button#resetButton:hover {
+    background: linear-gradient(135deg, #5a6268, #6c757d);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+}
+
+/* Remove Wall Button */
+button#removeWallButton {
+    background: linear-gradient(135deg, #dc3545, #c82333);
+    color: #fff;
+}
+
+button#removeWallButton:hover {
+    background: linear-gradient(135deg, #c82333, #dc3545);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+}
+
+/* Calculate Button */
+button.calculate-button {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: #fff;
+}
+
+button.calculate-button:hover {
+    background: linear-gradient(135deg, #0056b3, #007bff);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+}
+
+/* Paint Options */
+.paint-options {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.paint-options label {
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Result */
+.result {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #333;
+    text-align: center;
+}

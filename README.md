@@ -2,7 +2,7 @@
 Calculator how many liters of paint is needed, 1 is written in python and the other in 
 javascript
 
-How the Script Works: /n
+How the Script Works: <br>
 Adding Walls: Users can add up to 4 walls by specifying the width and height.
 Removing Walls: Users can remove the last wall, ensuring at least one wall remains.
 Calculating Paint: The script calculates the amount of paint or primer needed based on the selected type.

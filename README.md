@@ -9,3 +9,6 @@ Resetting: Users can reset the wall inputs, leaving only the first wall.
 Exit: Users can exit the script.
 
 The JS file with HTML and CSS:
+https://daniellefiene.github.io/Paint-Liter/
+
+![paint per m2](https://github.com/user-attachments/assets/b29f32f2-b969-43a4-bcf5-7addab79dc93)
